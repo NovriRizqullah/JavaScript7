@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Suara Hewan</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            $("div.ayam").click(function () {
+                $(this).css({
+                    background: "url('images/ayam.jpg')",
+                    width : 150,
+                    height : 100
+
+                });
+            });
+            $("div.ayam").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/ayam.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.burung").click(function () {
+                $(this).css({
+                    background: "url('images/burung.jpg')",
+                    width : 150,
+                    height : 100
+
+                });
+            });
+            $("div.burung").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/burung.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.bebek").click(function () {
+                $(this).css({
+                    background: "url('images/bebek.jpg')",
+                    width : 200,
+                    height : 100
+
+                });
+            });
+            $("div.bebek").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/bebek.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+
+            
+            $("div.angsa").click(function () {
+                $(this).css({
+                    background: "url('images/angsa.jpg')",
+                    width : 400,
+                    height : 500
+
+                });
+            });
+            $("div.angsa").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/angsa.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            //dst ........
+
+            $("div.sapi").click(function () {
+                $(this).css({
+                    background: "url('images/sapi.jpg')",
+                    width : 500,
+                    height : 400
+
+                });
+            });
+            $("div.sapi").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/sapi.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.kambing").click(function () {
+                $(this).css({
+                    background: "url('images/kambing.jpg')",
+                    width : 150,
+                    height : 100
+
+                });
+            });
+            $("div.kambing").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/kambing.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.kerbau").click(function () {
+                $(this).css({
+                    background: "url('images/kerbau.jpg')",
+                    width : 200,
+                    height : 100
+
+                });
+            });
+            $("div.kerbau").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/kerbau.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+
+            
+            $("div.kelinci").click(function () {
+                $(this).css({
+                    background: "url('images/kelinci.jpg')",
+                    width : 400,
+                    height : 400
+
+                });
+            });
+            $("div.kelinci").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/kelinci.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            
+            
+            $("div.singa").click(function () {
+                $(this).css({
+                    background: "url('images/singa.jpg')",
+                    width : 500,
+                    height : 400
+
+                });
+            });
+            $("div.singa").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/singa.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.harimau").click(function () {
+                $(this).css({
+                    background: "url('images/harimau.jpg')",
+                    width : 400,
+                    height : 300
+
+                });
+            });
+            $("div.harimau").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/harimau.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+            $("div.serigala").click(function () {
+                $(this).css({
+                    background: "url('images/serigala.jpg')",
+                    width : 400,
+                    height : 300
+
+                });
+            });
+            $("div.serigala").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/serigala.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+
+            
+            $("div.beruang").click(function () {
+                $(this).css({
+                    background: "url('images/beruang.jpg')",
+                    width : 400,
+                    height : 400
+
+                });
+            });
+            $("div.beruang").click(function () {
+                $("<audio></audio>").attr({
+                    'src': 'audio/beruang.mp3',
+                    'volume': 0.4,
+                    'autoplay': 'autoplay'
+                }).appendTo("div");
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Hewan Unggas
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="ayam">Ayam</div>
+              <div class="burung">Burung</div>
+              <div class="bebek">Bebek</div>
+              <div class="angsa">Angsa</div> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Hewan Ternak
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <div class="sapi">Sapi</div>
+            <div class="kambing">Kambing</div>
+            <div class="kerbau">Kerbau</div>
+            <div class="kelinci">Kelinci</div>             
+        </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Hewan Buas
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="singa">Singa</div>
+                <div class="harimau">Harimau</div>
+                <div class="serigala">Serigala</div>
+                <div class="beruang">Beruang</div>     
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</body>
+<script src="js/popper.min.jss"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
